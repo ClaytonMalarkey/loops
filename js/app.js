@@ -16,3 +16,14 @@ while(num<=100){
     }
     num ++;
 }
+
+var baseBallPlayersNames = ["sammy", "babe", "alphonse"];
+var isInjured = [true, false, false]
+var counter = 0;
+var points = [30, 33, 44];
+while(counter < baseBallPlayersNames.length){
+    if(isInjured[counter] == false){
+        console.log("player " +baseBallPlayersNames[counter] + " has " + points +" points and it is injured " + isInjured[counter]);
+    }else{}
+ counter++;
+}
